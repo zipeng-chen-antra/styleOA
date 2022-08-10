@@ -273,6 +273,7 @@
 
     .product-grid {
 
+        margin-bottom: 48px;
         // border: 1px solid black;
         hr {
             display: block;
@@ -290,21 +291,26 @@
 
         }
 
+        &__price {
+            margin-top: 4px;
+        }
+
         &__details {
+            margin-top: 21px;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            border: 1px solid black;
             height: 178px;
+
 
 
             button {
                 margin: 0;
                 justify-self: flex-end;
-                // flex-basis: auto;
-                // border: 1px solid black;
+                margin-top: auto;
             }
         }
+
+
     }
 
 }
